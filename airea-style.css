@@ -1,0 +1,78 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+.container{  padding-top: 20px;
+  padding-bottom: 20px;}
+body{
+  font-family: "Times New Roman","ヒラギノ明朝 Pro W3","ＭＳ 明朝";
+  background-color: #111845;
+}
+
+header h1{
+  color:white;
+	font-size:30px;
+	padding:0px 0px 0px 0px;
+}
+
+section{
+	max-width:930px;
+	background-color:white;
+	color:#000;
+	margin:0 auto;
+}
+
+article{
+	max-width:910px;
+	background-color:#111845;
+	color:white;
+	margin:10px 10px 10px 10px;
+	/*overflow: auto;*/
+}
+
+article h1{
+  color:white;
+	padding:10px;
+	letter-spacing:0.3em;
+	font-size:18px;
+	margin-bottom:10px;
+}
+
+article h2{
+	color:white;
+	padding:10px;
+	letter-spacing:0.1em;
+	font-size:17px;
+	margin-bottom:10px;
+}
+
+article img{
+	margin:10px;
+}
+
+article img.right{
+	float:right;
+}
+
+article p{
+	line-height:1.4;
+	margin:10px;
+}
+
+section{
+	max-width:950px;
+	background-color:#111845;;
+	color:#000;
+	margin:10px;
+}
+
+footer{
+  font-family: "Times New Roman";
+  color:white;
+}
+
+#wrapper{
+	max-width:950px;
+	margin:0 auto;
+}
