@@ -1,0 +1,33 @@
+nav{
+	font-family: "Times New Roman";
+	max-width:920px;
+	height:50px;
+	background-color:royalblue;
+  margin:20px 20px 20px 20px;
+}
+ul {
+	list-style-type: none;
+
+	overflow: hidden;
+	background-color: #1b2538;
+}
+li {
+	float: left;
+	border-right: 1px solid #bbbbbb;
+}
+li:last-child {
+	border-right: none;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover:not(.active) {
+	background-color: #a9bce2;
+}
+.active {
+	background-color: #da3c41;
+}
