@@ -4,8 +4,16 @@
 	padding:0;
   }
   
-  .container{  padding-top: 20px;
-	padding-bottom: 20px;}
+.container{  
+	padding-top: 20px;
+	padding-bottom: 20px;
+	
+}
+.rink-syu{
+	width: 80%;
+	margin: 0 auto;
+	max-width: 500px;
+}
   body{
 	font-family: "Times New Roman","ヒラギノ明朝 Pro W3","ＭＳ 明朝";
 	background-color: #111845;
@@ -94,27 +102,6 @@
   
   
   
-  .btn {
-	  padding: 8px 24px;
-	  color: white;
-	  display: inline-block;
-	  opacity: 0.8;
-	  margin:10px 10px;
-	  /*border-radius: 6px; */
-  }
-  .btn:hover {
-	  opacity: 1;
-  }
-  .twitter {
-	  background-color: #55acee;
-  }
-  .youtube{
-	  background-color: red;
-  }
-  .btn-wrapper {
-	  margin: 20px 0;
-  }  
-  
   .fab{
 	  margin-right: 5px;
 	  
@@ -123,10 +110,31 @@
   a {
 	  text-decoration:none;
   }
-  .rink{
+  .link{
 	  color:White;
 	  text-decoration : underline;
   }
-  
+
+
+  .btn {
+    padding: 8px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+	margin:10px 10px;
+    border-radius: 6px; 
+}
+.btn:hover {
+    opacity: 1;
+}
+.twitter {
+    background-color: #55acee;
+}
+.youtube{
+	background-color: red;
+}
+.btn-wrapper {
+    margin: 20px 0;
+}    
   
 	
