@@ -137,4 +137,9 @@
     margin: 20px 0;
 }    
   
-	
+.chara-left img{
+	float:left;
+}
+.chara-right img{
+	float: right;
+}
